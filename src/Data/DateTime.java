@@ -36,6 +36,4 @@ public class DateTime {
     }
 
 //    DateTime dateTime = new DateTime("Понеділок", new Time(12,30), false);
-
-
 }

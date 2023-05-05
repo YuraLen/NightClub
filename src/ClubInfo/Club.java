@@ -1,7 +1,5 @@
 package ClubInfo;
 
-import java.util.logging.SocketHandler;
-
 public class Club {
     private String name;
     private String address;
@@ -16,7 +14,6 @@ public class Club {
         this.maxNumOfVisitors = maxNumOfVisitors;
         this.priceToEntry = priceToEntry;
     }
-
 
     public String introduction() {
         System.out.println("~~~~~~~~~~~~~~~~~~ Про програму ~~~~~~~~~~~~~~~~~~");
