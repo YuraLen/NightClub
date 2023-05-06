@@ -29,7 +29,7 @@ public class Club {
         System.out.println("Назва клубу: " + name);
         System.out.println("Адреса клубу: " + address);
         System.out.printf("Кількість людей в клубі на даний момент: %d з %d\n", actualNumOfVisitors, maxNumOfVisitors);
-        System.out.printf("Ціна входу %dгрн\n", priceToEntry);
+        System.out.printf("Ціна входу в клуб - %dгрн\n", priceToEntry);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         return null;
     }
@@ -74,4 +74,3 @@ public class Club {
         this.priceToEntry = priceToEntry;
     }
 }
-

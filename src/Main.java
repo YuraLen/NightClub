@@ -12,12 +12,13 @@ public class Main {
     public static void main(String[] args) {
         /**
          * TODO:
-         * Зробити рандомайзер актуального числа людей в клубі, щоб кожний раз була інша кількість
+         * Перевірка Guard для кількості людей в клубі
          * Зробити знижки на кухню і бар якщо сьогодні свято (isWeekend = true)
-         * Закінчити цикл оформлення замовлення в бармена/офіціанта, якщо недостатньо грошей
+         * Чи використовувати DateTime в проекті?
          * */
 
-        Club club = new Club("Fashion Club", "площа Івана Підкови, 1, Львів", 162, 200, 200);
+        Club club = new Club("Fashion Club", "площа Івана Підкови, 1, Львів", (int) (Math.random()*200),
+                200, 200);
         Guard guard = new Guard();
 
         club.introduction();
