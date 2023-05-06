@@ -1,10 +1,11 @@
 package ClubInfo;
 
+// Клас Club використовується для того, щоб задати інформацію про клуб і в подальшому її обробляти.
 public class Club {
     private String name;
     private String address;
-    private int actualNumOfVisitors;
-    private int maxNumOfVisitors;
+    public int actualNumOfVisitors;
+    public int maxNumOfVisitors;
     private int priceToEntry;
 
     public Club(String name, String address, int actualNumOfVisitors, int maxNumOfVisitors, int priceToEntry) {

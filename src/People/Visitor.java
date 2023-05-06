@@ -2,6 +2,8 @@ package People;
 
 import java.util.Scanner;
 
+// Клас Visitor імітує відвідувача клубу. Для роботи програми потрібно його зареєструвати.
+
 public class Visitor {
     private Scanner scanner = new Scanner(System.in);
     private String firstName;

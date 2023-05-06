@@ -6,6 +6,8 @@ import static Cuisine.Salad.orderSalad;
 import static Cuisine.Seafood.orderSeafood;
 import static Cuisine.Sushi.orderSushi;
 
+//  Клас Waiter імітує офіціанта в клубі. Звернувшись до нього, користувач може замовити собі щось поїсти.
+
 public class Waiter {
     private static void displayCuisineMenu() {
         System.out.println("Офіціант: Що б Ви хотіли замовити?");
