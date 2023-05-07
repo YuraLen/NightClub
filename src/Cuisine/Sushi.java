@@ -4,9 +4,10 @@ import People.Visitor;
 
 import java.util.Scanner;
 
+/** Клас Sushi використовується для того, щоб можна було виводити меню з ролами та робити їх замовлення */
 public class Sushi {
     public static void orderSushi(Scanner scanner, Visitor visitor) {
-        // відображення меню з салатами та вибір салату
+        // зображення меню з салатами та вибір салату
         System.out.println("Суші:");
         System.out.println("1. Авокадо каппа макі. Ціна за порцію (120г.) - 95грн");
         System.out.println("2. Азія ф'южн. Ціна за порцію (260г.) - 335грн");

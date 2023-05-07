@@ -4,9 +4,10 @@ import People.Visitor;
 
 import java.util.Scanner;
 
+/** Клас Salad використовується для того, щоб можна було виводити меню з салатами та робити їх замовлення */
 public class Salad {
     public static void orderSalad(Scanner scanner, Visitor visitor) {
-        // відображення меню з салатами та вибір салату
+        // зображення меню з салатами та вибір салату
         System.out.println("Салати:");
         System.out.println("1. Салат Цезар з куркою по-східному. Ціна за порцію (180г.) - 199грн");
         System.out.println("2. Салат з тигровими креветками, сьомгою та мусом з авокадо. Ціна за порцію (180г.) - 335грн");

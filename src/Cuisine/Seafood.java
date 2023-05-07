@@ -4,9 +4,10 @@ import People.Visitor;
 
 import java.util.Scanner;
 
+/** Клас Seafood використовується для того, щоб можна було виводити меню з морепродуктами та робити їх замовлення */
 public class Seafood {
     public static void orderSeafood(Scanner scanner, Visitor visitor) {
-        // відображення меню з салатами та вибір салату
+        // зображення меню з салатами та вибір салату
         System.out.println("Морепродукти та риба:");
         System.out.println("1. Лосось (філе). Ціна за порцію (100г.) - 235грн");
         System.out.println("2. Тигрові креветки (дикий відлов). Ціна за порцію (100г.) - 305грн");
