@@ -14,9 +14,9 @@ public class Shot {
         System.out.println("4. Джин. Ціна за шот (40мл.) - 115грн");
         System.out.println("5. Повернутися в меню");
 
-        int cocktailChoice = scanner.nextInt();
+        int shotChoice = scanner.nextInt();
 
-        switch (cocktailChoice) {
+        switch (shotChoice) {
             case 1:
                 if (visitor.getAmountOfMoney() < 215) {
                     System.out.println("На жаль, у Вас недостатньо коштів на Коньяк.");

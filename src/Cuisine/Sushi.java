@@ -7,7 +7,6 @@ import java.util.Scanner;
 /** Клас Sushi використовується для того, щоб можна було виводити меню з ролами та робити їх замовлення */
 public class Sushi {
     public static void orderSushi(Scanner scanner, Visitor visitor) {
-        // зображення меню з салатами та вибір салату
         System.out.println("Суші:");
         System.out.println("1. Авокадо каппа макі. Ціна за порцію (120г.) - 95грн");
         System.out.println("2. Азія ф'южн. Ціна за порцію (260г.) - 335грн");
@@ -15,9 +14,9 @@ public class Sushi {
         System.out.println("4. Філадельфія. Ціна за порцію (210г.) - 225грн");
         System.out.println("5. Повернутися в меню");
 
-        int cocktailChoice = scanner.nextInt();
+        int sushiChoice = scanner.nextInt();
 
-        switch (cocktailChoice) {
+        switch (sushiChoice) {
             case 1:
                 if (visitor.getAmountOfMoney() < 95) {
                     System.out.println("На жаль, у Вас недостатньо коштів на Авокадо каппа макі.");

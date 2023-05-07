@@ -15,9 +15,9 @@ public class HotDrink {
         System.out.println("5. Чорний чай. Ціна за порцію (400мл.) - 95грн");
         System.out.println("6. Повернутися в меню");
 
-        int cocktailChoice = scanner.nextInt();
+        int hotDrinkChoice = scanner.nextInt();
 
-        switch (cocktailChoice) {
+        switch (hotDrinkChoice) {
             case 1:
                 if (visitor.getAmountOfMoney() < 49) {
                     System.out.println("На жаль, у Вас недостатньо коштів на Еспресо.");

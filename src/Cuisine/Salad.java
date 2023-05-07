@@ -15,9 +15,9 @@ public class Salad {
         System.out.println("4. Фруктове плато. Ціна за порцію (350г.) - 210грн");
         System.out.println("5. Повернутися в меню");
 
-        int cocktailChoice = scanner.nextInt();
+        int saladChoice = scanner.nextInt();
 
-        switch (cocktailChoice) {
+        switch (saladChoice) {
             case 1:
                 if (visitor.getAmountOfMoney() < 199) {
                     System.out.println("На жаль, у Вас недостатньо коштів на Салат Цезар.");
