@@ -1,5 +1,6 @@
 package Data;
 
+/** Клас DateTime використовується для того, щоб можна було вказати день тижня та час (class Time). */
 public class DateTime {
     private String day;
     private Time time;
@@ -34,6 +35,4 @@ public class DateTime {
     public void setWeekend(boolean weekend) {
         isWeekend = weekend;
     }
-
-//    DateTime dateTime = new DateTime("Понеділок", new Time(12,30), false);
 }

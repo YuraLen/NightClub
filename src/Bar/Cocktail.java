@@ -4,9 +4,9 @@ import People.Visitor;
 
 import java.util.Scanner;
 
+/** Клас Cocktail використовується для того, щоб можна було виводити меню з коктейлями та робити їх замовлення. */
 public class Cocktail {
     public static void orderCocktail(Scanner scanner, Visitor visitor) {
-        // відображення меню з коктейлями та вибір коктейля
         System.out.println("Коктейлі:");
         System.out.println("1. Remolacha. Склад: Бурбон, Пряна суміш, Настоянка троянди, Апельсин - 190грн");
         System.out.println("2. Monte Aperetivo. Склад: Амаро Монтенегро, Тонік, Ігристе Вино, Розмарин - 190грн");

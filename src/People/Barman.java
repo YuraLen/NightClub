@@ -6,7 +6,7 @@ import static Bar.Cocktail.orderCocktail;
 import static Bar.HotDrink.orderHotDrink;
 import static Bar.Shot.orderShot;
 
-//  Клас Barman імітує бармена в клубі. Звернувшись до нього, користувач може замовити собі якийсь напиток.
+/** Клас Barman імітує бармена в клубі. Звернувшись до нього, користувач може замовити собі якийсь напій. */
 
 public class Barman{
     private static void displayMenuWithDrinks() {
@@ -23,7 +23,7 @@ public class Barman{
         System.out.println("Бармен:  Вітаємо Вас в нашому нічному клубі!");
 
         while (!isFinished) {
-            // відображення меню з напоями
+            // зображення меню з напоями
             displayMenuWithDrinks();
 
             int choice = scanner.nextInt();

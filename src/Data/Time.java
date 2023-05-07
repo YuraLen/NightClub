@@ -1,5 +1,6 @@
 package Data;
 
+/** Клас Time використовується для того, щоб можна було задати час в форматі Години:Хвилини. */
 public class Time {
     private int hours;
     private int minutes;

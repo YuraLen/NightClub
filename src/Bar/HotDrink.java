@@ -4,10 +4,10 @@ import People.Visitor;
 
 import java.util.Scanner;
 
+/** Клас HotDrink використовується для того, щоб можна було виводити меню з гарячими напоями та робити їх замовлення */
 public class HotDrink {
     public static void orderHotDrink(Scanner scanner, Visitor visitor) {
-        // відображення меню з гарячими напитками та вибір напитка
-        System.out.println("Гарячі напитки:");
+        System.out.println("Гарячі напої:");
         System.out.println("1. Еспресо. Ціна за порцію (30мл) - 49грн");
         System.out.println("2. Кава Амерекано. Ціна за порцію (150мл) - 49грн");
         System.out.println("3. Ведрочіно. Ціна за порцію (350мл.) - 130грн");

@@ -4,9 +4,9 @@ import People.Visitor;
 
 import java.util.Scanner;
 
+/** Клас Shot використовується для того, щоб можна було виводити меню з шотами та робити їх замовлення. */
 public class Shot {
     public static void orderShot(Scanner scanner, Visitor visitor) {
-        // відображення меню з коктейлями та вибір коктейля
         System.out.println("Шоти:");
         System.out.println("1. Коньяк. Ціна за шот (40мл.) - 215грн");
         System.out.println("2. Бренді. Ціна за шот (40мл.) - 85грн");

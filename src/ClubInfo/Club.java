@@ -1,6 +1,6 @@
 package ClubInfo;
 
-// Клас Club використовується для того, щоб задати інформацію про клуб і в подальшому її обробляти.
+/** Клас Club використовується для того, щоб задати інформацію про клуб, а надалі її обробляти. */
 public class Club {
     private String name;
     private String address;
@@ -14,14 +14,6 @@ public class Club {
         this.actualNumOfVisitors = actualNumOfVisitors;
         this.maxNumOfVisitors = maxNumOfVisitors;
         this.priceToEntry = priceToEntry;
-    }
-
-    public String introduction() {
-        System.out.println("~~~~~~~~~~~~~~~~~~ Про програму ~~~~~~~~~~~~~~~~~~");
-        System.out.println("Тема: Нічний клуб.");
-        System.out.println("Суть програми: імітація нічного клубу.");
-        System.out.println("Розробник: ---.");
-        return null;
     }
 
     @Override
